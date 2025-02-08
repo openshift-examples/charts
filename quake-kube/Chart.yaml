@@ -1,0 +1,15 @@
+apiVersion: v2
+name: quake-kube
+description: A Helm chart for Quake on Kubernetes
+type: application
+version: 0.1.0
+icon: https://upload.wikimedia.org/wikipedia/de/7/78/Quake_III_Arena_Logo.svg
+appVersion: "master"
+icon: https://upload.wikimedia.org/wikipedia/de/7/78/Quake_III_Arena_Logo.svg
+sources:
+- https://github.com/criticalstack/quake-kube
+annotations:
+  charts.openshift.io/provider: OpenShift Examples
+  charts.openshift.io/providerType: community
+  charts.openshift.io/supportedOpenShiftVersions: '>=4.6'
+  charts.openshift.io/testedOpenShiftVersion: 4.17
