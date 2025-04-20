@@ -2,7 +2,7 @@ apiVersion: v2
 name: ocp-v-templates
 description: A Helm chart for Kubernetes
 type: application
-version: 0.1.0
+version: 0.1.1
 appVersion: "main"
 icon: https://access.redhat.com/webassets/avalon/d/OpenShift_Container_Platform-4.10-Virtualization-en-US/images/f03007ff0e4ba18e921132758bedae7b/virt-icon.png
 sources:
