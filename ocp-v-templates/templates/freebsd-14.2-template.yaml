@@ -8,7 +8,7 @@ metadata:
       Template for FreeBSD 14.2 VM or newer.
       A PVC with the FreeBSD disk image must be available.
     tags: "hidden,kubevirt,virtualmachine,freebsd"
-    iconClass: "icon-freebsd"
+    iconClass: icon-freebsd
     openshift.io/provider-display-name: "KubeVirt"
     openshift.io/documentation-url: "https://github.com/kubevirt/common-templates"
     openshift.io/support-url: "https://github.com/kubevirt/common-templates/issues"
@@ -128,7 +128,7 @@ parameters:
   value: 'freebsd-14.2'
 - name: DATA_SOURCE_NAMESPACE
   description: Namespace of the DataSource
-  value: kubevirt-os-images
+  value: openshift-virtualization-os-images
 - description: Randomized password for the cloud-init user freebsd
   from: '[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}'
   generate: expression
