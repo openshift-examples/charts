@@ -8,7 +8,7 @@ metadata:
       Template for FreeBSD 14.2 VM or newer.
       A PVC with the FreeBSD disk image must be available.
     tags: "hidden,kubevirt,virtualmachine,freebsd"
-    iconClass: icon-freebsd
+    iconClass: icon-bsd
     openshift.io/provider-display-name: "KubeVirt"
     openshift.io/documentation-url: "https://github.com/kubevirt/common-templates"
     openshift.io/support-url: "https://github.com/kubevirt/common-templates/issues"
@@ -29,7 +29,7 @@ metadata:
     workload.template.kubevirt.io/server: "true"
     flavor.template.kubevirt.io/medium: "true"
     template.kubevirt.io/type: "base"
-    template.kubevirt.io/version: "v0.32.2"
+    template.kubevirt.io/version: "v0.1.0"
     template.kubevirt.io/architecture: "amd64"
 objects:
 - apiVersion: kubevirt.io/v1

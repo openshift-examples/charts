@@ -1,0 +1,14 @@
+apiVersion: cdi.kubevirt.io/v1beta1
+kind: DataSource
+metadata:
+  labels:
+    app.kubernetes.io/component: storage
+    instancetype.kubevirt.io/default-instancetype: u1.medium
+    instancetype.kubevirt.io/default-preference: freebsd
+  name: freebsd-14.2
+  namespace: openshift-virtualization-os-images
+spec:
+  source:
+    pvc:
+      name: freebsd-14.2
+      namespace: openshift-virtualization-os-images
