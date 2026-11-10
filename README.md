@@ -17,7 +17,7 @@ spec:
 ```bash
 helm create quake-kube
 # Edit...
-# Examples for Chart.yaml: https://charts.openshift.io/index.yaml
+# Examples for Chart.yaml: https://openshift-examples.github.io/charts/index.yaml
 helm package quake-kube
 ```
 
